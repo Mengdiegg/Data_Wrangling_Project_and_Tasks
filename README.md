@@ -1,5 +1,5 @@
 # Data_Wrangling_Project_and_Tasks/Project 1
-For HW1,  I completed four main tasks as follows: 
+For project 1,  I completed four main tasks as follows: 
 1.	 Rename all the columns for eg.,
 a)	TriAge to Age
 b)	GenderCode to Gender
