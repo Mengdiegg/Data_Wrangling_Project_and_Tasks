@@ -1,5 +1,7 @@
 # qbs181
-For HW1,  I completed four main tasks as follows: 
+There are four branches include project1, project2, midterm_project, final_project.
+
+For project 1,  I completed four main tasks as follows: 
 1.	 Rename all the columns for eg.,
 a)	TriAge to Age
 b)	GenderCode to Gender
@@ -30,7 +32,7 @@ d)	Insert sex=Unknown if code =’NULL’
 4.	Create a new column “Age group” and create age groups with an interval of 25 yrs. for example 0-25 years as ‘0-25’, 26-50 as “26-50” and so on...
     
 
-For HW2,  I completed six main tasks as follows:
+For project 2,  I completed six main tasks as follows:
 
 1.	Create a new column “Enrollment group” in the table Phonecall
 a)	Insert EnrollmentGroup=Clinical Alert :code is 125060000
@@ -51,11 +53,9 @@ f)	Insert EnrollmentGroup =Lack of engagement : Code  is 125060005
 
 6.	Obtain the count of texts based on the chronic condition over a period of time (say per week). Draw a visual using ggplot to obtain the counts
 
-For midterm, I firstly found some problems to clean the dataset and I listed all of them to make the table more clear. Then I used ODBC library in R t connect the dataset in the sql database. I then continue used sqlquery to operate the data in th dataset in sql. For each question, I explained that the reasons why I made this change and how I made this change. I also provide sql codes for reference.
+For midterm-project, I firstly found some problems to clean the dataset and I listed all of them to make the table more clear. Then I used ODBC library in R t connect the dataset in the sql database. I then continue used sqlquery to operate the data in th dataset in sql. For each question, I explained that the reasons why I made this change and how I made this change. I also provide sql codes for reference.
 
-For final, I completed 3 main tasks as follows:
-
-
+For final project, I completed 3 main tasks as follows:
 1)	Consider the following blood pressure dataset (IC_BP_v2.csv). Perform the following operations
 a.	Convert BP alerts to BP status
 b.	Define Hypotension-1 & Normal as Controlled blood pressure Hypotension-2, Hypertension-1, Hypertension-2 & Hypertension-3 as Uncontrolled blood pressure: Controlled & Uncontrolled blood pressure as 1 or 0 (Dichotomous Outcomes) 
