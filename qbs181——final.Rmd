@@ -1,0 +1,22 @@
+---
+title: "QBS181 Final"
+author: "Mengdie Ge"
+date: "11/26/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+demographics <- read.csv('Demographics.csv', header=TRUE, sep=",")
+text <- read.csv('TextMessages.csv', header=TRUE, sep=",")
+conditions <- read.csv('Conditions.csv', header=TRUE, sep=",")
+demo_condi <- merge(demographics,conditions,by.x="contactid", by.y="tri_patientid")
+demo_condi <- demo_condi[,!(names(demo_condi) %in% c("tri_patientid"))]
+merge_final <- merge(demo_condi, text, by.x="contactid", by.y="tri_contactId")
+merge_final <- merge_final[,!(names(merge_final) %in% c("tri_contactId"))]
+merge_final %>% group_by("contactid") %>% slice(which.max(TextSentDate))
+```
