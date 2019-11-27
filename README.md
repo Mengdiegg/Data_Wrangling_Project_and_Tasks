@@ -1,5 +1,5 @@
 # qbs181
-There are four branches include project1, project2, midterm_project, final_project.
+There are four files include project1, project2, midterm_project, final_project.
 I have been given the permission to make your work public
 
 For project 1,  I completed four main tasks as follows: 
